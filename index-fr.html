@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillaume Desmarais-de Grandpré - CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #418bbd;
+            --accent-color: #3d95cc;
+            --text-color: #333;
+            --background-color: #f5f5f5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-break {
+            page-break-before: always;
+            break-before: page;
+            margin-top: 30px
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            color: var(--primary-color);
+            opacity: 0.8;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .company {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+
+        .lang-toggle {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .lang-btn {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .lang-btn:hover {
+            background-color: var(--accent-color);
+        }
+
+        .lang-btn.active {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="lang-toggle">
+            <a href="index.html" class="lang-btn">English</a>
+            <a href="index-fr.html" class="lang-btn active">Français</a>
+        </div>
+
+        <header>
+            <h1>Guillaume Desmarais-de Grandpré, M.Sc.</h1>
+            <div class="contact-info">
+                Science des données | Génie logiciel | Ingénierie IA<br>
+                Courriel: <a href="mailto:guillaume.d.degrandpre@gmail.com">guillaume.d.degrandpre@gmail.com</a>
+            </div>
+        </header>
+        <div class="section">
+            <h2>Résumé professionnel</h2>
+            <p>Professionnel expérimenté avec une solide formation technique en IA, spécialisé dans les réseaux de
+                neurones en graphes,
+                les LLM et la recherche en IA appliquée au génie civil. Compétent en science des données et en génie
+                logiciel,
+                avec une vaste expérience en analyse de données, apprentissage automatique et architecture logicielle.
+                Capacités de leadership
+                éprouvées et expertise en gestion des risques, assurant l'exécution réussie de projets à enjeux élevés
+                et stimulant des
+                solutions innovantes. Habile à travailler avec des équipes multiculturelles et possédant une solide
+                expérience en
+                relations interculturelles, soutenue par une vaste expérience internationale.</p>
+        </div>
+
+        <div class="section">
+            <h2>Compétences clés</h2>
+            <div class="skills">
+                <span class="skill">Réseaux de neurones en graphes</span>
+                <span class="skill">Systèmes multi-agents</span>
+                <span class="skill">Ingénierie des LLM</span>
+                <span class="skill">Fine-tuning et déploiement de LLM</span>
+                <span class="skill">Tokenisation et embeddings</span>
+                <span class="skill">RAG</span>
+                <span class="skill">Prompt Engineering</span>
+                <span class="skill">Apprentissage profond</span>
+                <span class="skill">Analyse de données</span>
+                <span class="skill">Architecture de bases de données</span>
+                <span class="skill">Traitement du langage naturel</span>
+                <span class="skill">Génie structurel</span>
+                <span class="skill">Architecture logicielle</span>
+                <span class="skill">MLOps</span>
+                <span class="skill">Recherche académique</span>
+                <span class="skill">Gestion de risque</span>
+                <span class="skill">Cohésion d'équipe</span>
+                <span class="skill">Enseignement académique</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Expérience professionnelle</h2>
+
+            <span class="job-title">Scientifique en IA</span> chez <span class="company">Bentley Systems</span> <span
+                class="date">Janvier 2025 - Présent | Ville de Québec</span>
+            <ul>
+                <li>Stimulation de l'innovation dans l'équipe de recherche technologique de Bentley Systems</li>
+                <li>Développement d'un système copilote multi-agents pour applications de génie civil</li>
+                <li>Entraînement de modèles basés sur les GNN pour l'optimisation structurelle</li>
+                <li>Direction d'une équipe interdisciplinaire pour intégrer des solutions IA dans des projets de génie
+                    civil</li>
+            </ul>
+
+
+            <span class="job-title">Scientifique de données principal</span> chez <span class="company">BioTwin</span>
+            <span class="date">Janvier 2024 - Décembre 2024 | Ville de Québec</span>
+            <ul>
+                <li>Direction d'une équipe multidisciplinaire de 5 scientifiques de données</li>
+                <li>Reconception et réimplémentation de l'architecture complète du jumeau virtuel</li>
+                <li>Accompagnement de BioTwin dans un programme d'incubation sur place au Hub71 à Abu Dhabi, UAE</li>
+                <li>Développement d'architectures de pipeline ML personnalisées de bout en bout pour traiter les données
+                    de métabolomique non ciblée</li>
+                <li>Fine-tuning de plusieurs LLM et ajout de capacités RAG pour des cas d'utilisation internes
+                </li>
+                <li>Conception et mise en œuvre d'une architecture de système de microservices pour les services web et
+                    ML</li>
+                <li>Recherche sur la détection précoce du cancer du sein utilisant des données LC-MS, aboutissant à un
+                    projet pilote
+                    avec la Cleveland Clinic Abu Dhabi</li>
+            </ul>
+
+
+            <span class="job-title">Chercheur en IA</span> à <span class="company">Université Laval</span> <span
+                class="date">Septembre 2020 - Avril 2024 | Ville de Québec</span>
+            <ul>
+                <li>Développement d'un modèle de langage clinique basé sur LSTM capable de prédire les historiques
+                    pharmaceutiques avec 86%
+                    de précision</li>
+                <li>Contributions essentielles au projet IA-Polypharmacie dirigé par l'Institut national de santé
+                    publique du Québec
+                    visant à détecter de nouveaux cas de combinaisons médicamenteuses dangereuses</li>
+                <li>Publication d'un mémoire de maîtrise et obtention d'une M.Sc. en IA</li>
+            </ul>
+
+
+
+            <span class="job-title">Auxiliaire d'enseignement</span> à <span class="company">Université Laval</span>
+            <span class="date">Janvier 2021 - Avril 2024 | Ville de Québec</span>
+            <ul>
+                <li>Animation de séances hebdomadaires sur la conception et l'architecture de bases de données
+                </li>
+                <li>Auziliaire d'enseignement pour le cours <i>Modèles et langages de bases de données pour
+                        ingénieurs</i></li>
+                <li>Création d'ateliers devenus partie obligatoire du programme de génie logiciel</li>
+            </ul>
+
+
+
+
+            <span class="job-title">Développeur Clojure</span> chez <span class="company">Rakuten Ready</span> <span
+                class="date">Janvier 2020 - Juillet 2020 | Ville de Québec</span>
+            <ul>
+                <li>Travail sur un système d'estimation des délais de livraison de colis</li>
+                <li>Développement d'un nouvel ensemble de métriques pour aider à prédire avec précision le temps de
+                    livraison d'un colis</li>
+                <li>Ajout d'un service de surveillance de la santé de l'application avec alertes de performance en temps
+                    réel</li>
+            </ul>
+
+
+
+            <span class="job-title">Développeur Java</span> chez <span class="company">Ticketmaster</span> <span
+                class="date">Mai 2019 - Juillet 2019 | Ville de Québec</span>
+            <ul>
+                <li>Travail avec l'équipe internationale de gestion des stocks</li>
+                <li>Conception de nouvelles interfaces pour se connecter aux API d'entreprise existantes</li>
+                <li>Suggestion et mise en œuvre d'Infrastructure as Code (Terraform) au sein de l'équipe</li>
+            </ul>
+
+            <span class="job-title">Cofondateur et CTO</span> chez <span class="company">Recurrex (NPM
+                Technologies)</span> <span class="date">Septembre 2015 - Juillet 2017 | Bengaluru, Inde</span>
+            <ul>
+                <li>Cofondation d'une startup visant à fournir une plateforme unifiée pour les entreprises avec un
+                    modèle
+                    d'affaires récurrent</li>
+                <li>Direction et développement d'un projet pilote avec Akshayakalpa</li>
+                <li>Direction d'une équipe de 8 développeurs</li>
+                <li>Distribution de notre application aux entreprises clés à Bengaluru</li>
+            </ul>
+
+        </div>
+
+        <div class="page-break"></div>
+
+        <div class="section">
+            <h2>Formation</h2>
+            <p><strong>Maîtrise avec mémoire en informatique</strong> - Intelligence artificielle<br>
+                Université Laval, Ville de Québec (2020 - 2024)</p>
+            <p><strong>Baccalauréat en génie logiciel</strong><br>
+                Université Laval, Ville de Québec (2016 - 2020)</p>
+            <p><strong>Baccalauréat International (IB)</strong><br>
+                Sevenoaks School, Sevenoaks, R.-U. (2008 - 2010)</p>
+        </div>
+
+        <div class="section">
+            <h2>Langues</h2>
+            <p><b>Courant : </b>Français, Anglais</p>
+            <p><b>Intermédiaire : </b>Espagnol</p>
+            <p><b>Apprentissage : </b>Mandarin</p>
+        </div>
+
+        <div class="section">
+            <h2>Technologies</h2>
+            <p>NLP, Réseaux de neurones en graphes, Systèmes multi-agents, MLOps</p>
+            <p>Python, Typescript, Java, C++, Clojure, C</p>
+            <p>PyTorch, scikit-learn, LangChain / LangGraph, numpy, pandas, polars, Hugging Face, OpenAI API, Ollama,
+                Vertex AI, Azure AI</p>
+            <p>NodeJS, NestJS, ReactJS, GraphQL, REST</p>
+            <p>Postgres, MariaDB, MongoDB, Neo4J</p>
+            <p>AWS, Azure, GCS, Pulumi, Terraform</p>
+            <p>GIT</p>
+        </div>
+    </div>
+</body>
+
+</html>
